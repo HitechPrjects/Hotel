@@ -59,7 +59,7 @@
                     <td><?php echo $row['housekeepingstatus']; ?></td>
                     
                     <td><a  href="create_reports.php?id=<?php echo $row['id']; ?>" class="btn btn-warning text-white text-center ">Edit </a></td>
-                <td><a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger  text-center ">Delete</a></td>
+                <td><a href="delete1.php?id=<?php echo $row['id']; ?>" class="btn btn-danger  text-center ">Delete</a></td>
 
                   </tr>
                   <?php
